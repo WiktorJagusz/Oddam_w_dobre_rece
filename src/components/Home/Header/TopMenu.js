@@ -1,4 +1,8 @@
 import React, { Component } from "react";
+import Navigation from './Navigation'
+
+import { Link } from 'react-router-dom';
+
 
 class TopMenu extends Component{
     render(){
@@ -6,21 +10,11 @@ class TopMenu extends Component{
             <div className="topMenu">
                 <div className="loginRegister">
                     <ul>
-                        <li className='login'>Zaloguj</li>
-                        <li className='register'>Załóż konto</li>
-                    </ul>
-                    
+                        <li className='login'><Link to='/login'>Zaloguj</Link></li>
+                        <li className='register'><Link to='/register'>Załóż konto</Link></li>
+                    </ul>  
                 </div>
-                <div className="navigation">
-                    <ul>
-                        <li>Start</li>
-                        <li>O co chodzi?</li>
-                        <li>O nas</li>
-                        <li>Fundacja i organizacje</li>
-                        <li>Kontakt</li>
-                    </ul>
-                    
-                </div>
+                <Navigation/>
             </div>
         )
     }
