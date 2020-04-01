@@ -6,41 +6,33 @@ header {
     justify-content: flex-end;
     align-items: stretch;
     .headerFlexContainer{
-        // border: 1px solid forestgreen;
         margin-right: 5vw;
         width: 50%;
         display: flex;
         flex-direction: column;
         align-items: stretch;
-
         .topMenu{
-        // border: 1px solid red;
         display: flex;
         flex-direction: column;
         .loginRegister{
-            a{
-                text-decoration: none;
-                color: black;
-            }
-            // border: 1px solid green;
             display: flex;
             flex-direction: row;
             justify-content: flex-end;
             ul{
-                // float: right;
-                // display: flex;
-                // flex-direction: row;
-                // justify-content: space-between;
-                width: 25%;
-                padding-left: 0;
-
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
                 li{
-                    float: right;
-                    // display: inline-block;
+                    display: inline-block;
                     list-style-type: none;
                     font-size: 87%;
                     padding: 5%;
                     border: 0.75px solid rgba(0,0,0,0);
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        max-height: 1rem;
+                    }
                 }
                 li:hover{
                     border: 0.75px solid #FAD648;
@@ -49,24 +41,29 @@ header {
             }
             
         }
-        .navigation ul{
-            // display: flex;
-            // flex-direction: row;
-            // justify-content: space-between;
-            // padding-left: 20%;
-    
-            li{
-                float: right;
-                height: 1.5rem;
-                list-style-type: none;
-                font-size: 112%;
-                padding: 1%;
-                border: 0.75px solid rgba(0,0,0,0);
+        .navigation {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            ul{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                li{
+                    display: inline-block;
+                    height: 1.5rem;
+                    list-style-type: none;
+                    font-size: 112%;
+                    padding: 1%;
+                    border: 0.75px solid rgba(0,0,0,0);
+                }
+                li:hover{
+                    border: 0.75px solid #3C3C3C;
+                    cursor: pointer;
+                }
             }
-            li:hover{
-                border: 0.75px solid #3C3C3C;
-                cursor: pointer;
-            }
+            
         }
     }
     .intro{
@@ -76,7 +73,6 @@ header {
         justify-content: space-evenly;
         align-items: center;
         .introFlexBox{
-            // margin: auto;
             width: 80%;
             min-height: 60%;
             padding-bottom: 8%;
