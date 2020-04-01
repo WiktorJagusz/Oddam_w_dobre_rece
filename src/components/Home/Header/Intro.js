@@ -10,8 +10,8 @@ class Intro extends Component{
                     <h1>Oddaj niechciane rzeczy w zaufane ręce</h1>
                     <img src={Decoration} alt="motyw dekoracyjny"/>
                     <div className="headerButtons">
-                        <div><p>ODDAJ RZECZY</p></div>
-                        <div><p>ZORGANIZUJ ZBIÓRKĘ</p></div>
+                        <button>ODDAJ RZECZY</button>
+                        <button>ZORGANIZUJ ZBIÓRKĘ</button>
                     </div>
                 </div>   
             </div>
