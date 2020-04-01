@@ -1,6 +1,8 @@
 @import "settings/fonts";
 @import "settings/colors";
 @import "settings/Normalize";
+@import "./header";
+@import "./threeColumns";
 
 body {
     font-family: $font-base;
