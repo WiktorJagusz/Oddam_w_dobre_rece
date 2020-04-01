@@ -1,0 +1,116 @@
+header {
+    width: 100%;
+    min-height: 100vh;
+    background: white url('../assets/Home-Hero-Image.jpg') no-repeat left / 50% auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+    .headerFlexContainer{
+        // border: 1px solid forestgreen;
+        margin-right: 5vw;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+
+        .topMenu{
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        .loginRegister{
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            // border: 1px solid green;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            ul{
+                // float: right;
+                // display: flex;
+                // flex-direction: row;
+                // justify-content: space-between;
+                width: 25%;
+                padding-left: 0;
+
+                li{
+                    float: right;
+                    // display: inline-block;
+                    list-style-type: none;
+                    font-size: 87%;
+                    padding: 5%;
+                    border: 0.75px solid rgba(0,0,0,0);
+                }
+                li:hover{
+                    border: 0.75px solid #FAD648;
+                    cursor: pointer;
+                }
+            }
+            
+        }
+        .navigation ul{
+            // display: flex;
+            // flex-direction: row;
+            // justify-content: space-between;
+            // padding-left: 20%;
+    
+            li{
+                float: right;
+                height: 1.5rem;
+                list-style-type: none;
+                font-size: 112%;
+                padding: 1%;
+                border: 0.75px solid rgba(0,0,0,0);
+            }
+            li:hover{
+                border: 0.75px solid #3C3C3C;
+                cursor: pointer;
+            }
+        }
+    }
+    .intro{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        .introFlexBox{
+            // margin: auto;
+            width: 80%;
+            min-height: 60%;
+            padding-bottom: 8%;
+            h1 {
+                text-align: center;
+                font-size: regular;
+                letter-spacing: -0.76px;
+                color: #3C3C3C;
+            }
+            img{
+                display: block;
+                margin: 0 auto;
+            }
+            .headerButtons{
+                margin-top: 15%;
+                display: flex;
+                justify-content: space-between;
+                button{
+                    padding: 3%;
+                    display: block;
+                    border: 0.75px solid #3C3C3C;
+                    text-align: center;
+                    max-width: 45%;
+                    font-weight: light;
+                    font-size: 225%;
+                    background-color: white;
+                }
+                button:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+
+    }
+    
+    }
+}
