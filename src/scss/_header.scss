@@ -15,18 +15,18 @@ header {
         display: flex;
         flex-direction: column;
         .loginRegister{
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-end;
+            // display: flex;
+            // flex-direction: row;
+            // justify-content: flex-end;
             ul{
                 display: flex;
-                flex-direction: row;
+                // flex-direction: row;
                 justify-content: flex-end;
                 li{
                     display: inline-block;
                     list-style-type: none;
                     font-size: 87%;
-                    padding: 5%;
+                    padding: 1%;
                     border: 0.75px solid rgba(0,0,0,0);
                     a{
                         text-decoration: none;
