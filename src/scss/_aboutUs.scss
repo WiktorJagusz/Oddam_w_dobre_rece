@@ -1,0 +1,38 @@
+.aboutUs{
+    padding-top: 4%;
+    display: flex;
+    // flex-direction: row;
+    width: 100%;
+    height: 95vh;
+    
+    .square{
+        background-color: red;
+        max-width: 50%;
+        max-height: 100%;
+        
+    }
+    .description{
+        text-align: center;
+        background-color: #F0F1F1;
+        color: #3C3C3C;
+        h1{
+            padding-top: 20%;
+        }
+        p{
+            font-size: 187%;
+            width: 70%;
+            margin: 0 auto;
+            padding-top: 3%;
+            
+        }
+        .sig{
+            margin-left: 50%;
+            margin-top: 10%;
+        }
+    }
+    .photo{
+        background: url('../assets/People.jpg') no-repeat left / 100% 100%;
+        width: 100%;
+        height: 100%;
+    }
+}
