@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-// import { Link } from 'react-scroll'
+import { Link } from 'react-scroll'
 
 class Navigation extends Component{
     render(){
@@ -8,7 +8,7 @@ class Navigation extends Component{
             <div className="navigation">
                     <ul>
                         <li>Start</li>
-                        <li>O co chodzi?</li>
+                        <li><Link to='fourSteps'>O co chodzi?</Link></li>
                         <li>O nas</li>
                         <li>Fundacja i organizacje</li>
                         <li>Kontakt</li>
