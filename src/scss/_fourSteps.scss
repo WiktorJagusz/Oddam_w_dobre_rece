@@ -1,0 +1,49 @@
+.fourStepsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2%;
+    width: 100%;
+    .decoration{
+        text-align: center;
+        padding-bottom: 2%;
+    }
+    .simpleSteps{
+        padding-top: 3%;
+        padding-bottom: 3%;
+        background-color: #F0F1F1;
+        max-height: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .iconBox{
+            max-width: 10%;
+            text-align: center;
+            img, h3, p {
+                padding: 2%;
+                margin: 0;
+            }
+            hr{
+                width: 50%;
+            }
+        }
+    }
+    .giveAwayFlexBox{
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        display: flex;
+        justify-content: center;
+        padding-top: 2%;
+        button{
+            border: 0.75px solid #3C3C3C;
+            max-width: 15%;
+            font-size: 225%;
+            background-color: white;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+    }
+}
