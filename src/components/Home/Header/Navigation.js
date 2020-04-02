@@ -9,7 +9,7 @@ class Navigation extends Component{
                     <ul>
                         <li>Start</li>
                         <li><Link to='fourSteps'>O co chodzi?</Link></li>
-                        <li>O nas</li>
+                        <li><Link to='aboutUs'>O nas</Link></li>
                         <li>Fundacja i organizacje</li>
                         <li>Kontakt</li>
                     </ul> 
