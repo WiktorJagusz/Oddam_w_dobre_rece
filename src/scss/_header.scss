@@ -25,6 +25,10 @@ header {
                     font-size: 87%;
                     padding: 1%;
                     border: 0.75px solid rgba(0,0,0,0);
+                    p{
+                        display: inline;
+                        margin: 0;
+                    }
                     a{
                         text-decoration: none;
                         color: black;
@@ -47,11 +51,14 @@ header {
                 flex-direction: row;
                 justify-content: flex-end;
                 li{
-                    // line-height: 1.5rem;
                     list-style-type: none;
                     font-size: 112%;
                     padding: 1%;
                     border: 0.75px solid rgba(0,0,0,0);
+                    p{
+                        margin: 0;
+                        width: 100%;
+                    }
                 }
                 li:hover{
                     border: 0.75px solid #3C3C3C;
@@ -72,8 +79,9 @@ header {
             min-height: 60%;
             padding-bottom: 8%;
             h1 {
+                font-weight: 400;
+                font-size: 200%;
                 text-align: center;
-                font-size: regular;
                 letter-spacing: -0.76px;
                 color: #3C3C3C;
             }

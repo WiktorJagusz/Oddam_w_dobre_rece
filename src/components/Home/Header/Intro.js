@@ -6,8 +6,7 @@ class Intro extends Component{
         return(
             <div className='intro'>
                 <div className='introFlexBox'>
-                    <h1>Zacznij pomagać!</h1>
-                    <h1>Oddaj niechciane rzeczy w zaufane ręce</h1>
+                    <h1>Zacznij pomagać! <br></br>Oddaj niechciane rzeczy w zaufane ręce</h1>
                     <img src={Decoration} alt="motyw dekoracyjny"/>
                     <div className="headerButtons">
                         <button>ODDAJ RZECZY</button>

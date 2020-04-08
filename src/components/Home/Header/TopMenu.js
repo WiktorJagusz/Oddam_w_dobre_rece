@@ -10,8 +10,8 @@ class TopMenu extends Component{
             <div className="topMenu">
                 <div className="loginRegister">
                     <ul>
-                        <li className='login'><Link to='/login'>Zaloguj</Link></li>
-                        <li className='register'><Link to='/register'>Załóż konto</Link></li>
+                        <li className='login'><Link to='/login'><p>Zaloguj</p></Link></li>
+                        <li className='register'><Link to='/register'><p>Załóż konto</p></Link></li>
                     </ul>  
                 </div>
                 <Navigation/>
