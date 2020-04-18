@@ -5,6 +5,7 @@ import ThreeColumns from './Home/ThreeColumns/ThreeColumns'
 import FourSteps from './Home/FourSteps/FourSteps'
 import AboutUs from './Home/AboutUs/AboutUs';
 import WhoWeHelp from './Home/WhoWeHelp/WhoWeHelp';
+import Contact from './Home/Contact/Contact';
 
 class Home extends Component{
     render(){
@@ -15,6 +16,7 @@ class Home extends Component{
                 <FourSteps />
                 <AboutUs />
                 <WhoWeHelp />
+                {/* <Contact /> */}
             </>
         )
     }

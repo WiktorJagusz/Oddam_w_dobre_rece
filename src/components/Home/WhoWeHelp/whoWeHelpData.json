@@ -1,0 +1,133 @@
+{
+    "whoWeHelp":[
+        {
+            "id":1,
+            "type": "Fundacjom",
+            "description": "W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.",
+            "nameGoalStuff":[
+                {
+                    "id": 1,
+                    "name": "Fundacja Dbam o zdrowie",
+                    "goal": "Cel i misja: pomoc osobom znajdującym się w trudnej sytuacji życiowej",
+                    "stuff": "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
+                },
+                {
+                    "id": 2,
+                    "name": "Fundacja Dla dzieci",
+                    "goal": "Cel i misja: pomoc dzieciom z ubogich rodzin",
+                    "stuff": "ubrania, meble, zabawki"
+                },
+                {
+                    "id": 3,
+                    "name": "Fundacja Bez domu",
+                    "goal": "Cel i misja: pomoc dla osób nie posiadających miejsca zamieszkania",
+                    "stuff": "ubrania, jedzenie, ciepłe koce"
+                },
+                {
+                    "id": 4,
+                    "name": "Fundacja Dbam o zdrowie 2",
+                    "goal": "Cel i misja: pomoc osobom znajdującym się w trudnej sytuacji życiowej 2",
+                    "stuff": "ubrania, jedzenie, sprzęt AGD, meble, zabawki 2"
+                },
+                {
+                    "id": 5,
+                    "name": "Fundacja Dla dzieci 2",
+                    "goal": "Cel i misja: pomoc dzieciom z ubogich rodzin 2",
+                    "stuff": "ubrania, meble, zabawki 2"
+                },
+                {
+                    "id": 6,
+                    "name": "Fundacja Bez domu 2",
+                    "goal": "Cel i misja: pomoc dla osób nie posiadających miejsca zamieszkania 2",
+                    "stuff": "ubrania, jedzenie, ciepłe koce 2"
+                },
+                {
+                    "id": 7,
+                    "name": "Fundacja Dbam o zdrowie 3",
+                    "goal": "Cel i misja: pomoc osobom znajdującym się w trudnej sytuacji życiowej 3",
+                    "stuff": "ubrania, jedzenie, sprzęt AGD, meble, zabawki 3"
+                },
+                {
+                    "id": 8,
+                    "name": "Fundacja Dla dzieci 3",
+                    "goal": "Cel i misja: pomoc dzieciom z ubogich rodzin 3",
+                    "stuff": "ubrania, meble, zabawki 3"
+                },
+                {
+                    "id": 9,
+                    "name": "Fundacja Bez domu 3",
+                    "goal": "Cel i misja: pomoc dla osób nie posiadających miejsca zamieszkania 3",
+                    "stuff": "ubrania, jedzenie, ciepłe koce 3"
+                }
+            ]
+        },
+        {
+            "id":2,
+            "type": "Organizacjom",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+            "nameGoalStuff":[
+                {
+                    "id": 1,
+                    "name": "Organizacja Lorem ipsum 1",
+                    "goal": "Nulla ligula magna, fringilla et eleifend in, rhoncus sed libero.",
+                    "stuff": "super, extra, sprzęt"
+                },
+                {
+                    "id": 2,
+                    "name": "Organizacja Lorem ipsum 2",
+                    "goal": "Nulla ligula magna, fringilla et eleifend in, rhoncus sed libero.",
+                    "stuff": "super, meble, zabawki"
+                },
+                {
+                    "id": 3,
+                    "name": "Organizacja Lorem ipsum 3",
+                    "goal": "Nulla ligula magna, fringilla et eleifend in, rhoncus sed libero.",
+                    "stuff": "super, extra, ciepłe ce"
+                },
+                {
+                    "id": 4,
+                    "name": "Organizacja Lorem ipsum 4",
+                    "goal": "Nulla ligula magna, fringilla et eleifend in, rhoncus sed libero.",
+                    "stuff": "super, extra, sprzęt,abawki"
+                },
+                {
+                    "id": 5,
+                    "name": "Organizacja Lorem ipsum 5",
+                    "goal": "Nulla ligula magna, fringilla et eleifend in, rhoncus sed libero.",
+                    "stuff": "super, meble, zabawki"
+                },
+                {
+                    "id": 6,
+                    "name": "Organizacja Lorem ipsum 6",
+                    "goal": "Nulla ligula magna, fringilla et eleifend in, rhoncus sed libero.",
+                    "stuff": "super, extra, ciepłe ce"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "type": "Lokalnym zbiórkom",
+            "description": "Doggo ipsum woofer porgo shooberino heckin angery woofer, the neighborhood pupper heckin. H*ck corgo heck very good spot heck, blop stop it fren bork. fren doing me a frighten.",
+            "nameGoalStuff":[
+                {
+                    "id": 1,
+                    "name": "Zbiórka Lorem ipsum 11",
+                    "goal": "Nulla ligula magna, fringilla et eleifend in, rhoncus sed libero.",
+                    "stuff": "super, extra, sprzęt, zabawki"
+                },
+                {
+                    "id": 2,
+                    "name": "Zbiórka Lorem ipsum 22",
+                    "goal": "Nulla ligula magna, fringilla et eleifend in, rhoncus sed libero.",
+                    "stuff": "super, meble, zabawki"
+                },
+                {
+                    "id": 3,
+                    "name": "Zbiórka Lorem ipsum 33",
+                    "goal": "Nulla ligula magna, fringilla et eleifend in, rhoncus sed libero.",
+                    "stuff": "super, extra, ciepłe koce"
+                }
+            ]
+        }
+    ]
+}
