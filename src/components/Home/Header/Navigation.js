@@ -11,7 +11,7 @@ class Navigation extends Component{
                         <li><Link to='fourSteps'>O co chodzi?</Link></li>
                         <li><Link to='aboutUs'>O nas</Link></li>
                         <li><Link to='whoWeHelp'>Fundacja i organizacje</Link></li>
-                        <li>Kontakt</li>
+                        <li><Link to='contact'>Kontakt</Link></li>
                     </ul> 
                 </div>
         )

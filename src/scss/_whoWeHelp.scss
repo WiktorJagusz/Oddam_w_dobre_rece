@@ -3,7 +3,8 @@
     flex-direction: column;
     justify-content: space-between;
     max-width: 70%;
-    max-height: 100vh;
+    // max-height: 100vh;
+    height: fit-content;
     margin: auto;
     padding-bottom: 2%;
     h3{
@@ -62,12 +63,10 @@
             display: flex;
             flex-direction: column;
             width: 100%;
-            
             li{
                 font-family: $font-alt;
                 list-style-type: none;
                 border-bottom: 1px solid #707070;
-                // margin: 0;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
@@ -116,6 +115,5 @@
                 cursor: pointer;
             }
         }
-        
     }
 }
