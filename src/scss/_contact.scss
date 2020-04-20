@@ -39,5 +39,93 @@
         padding-right: 7%;
         min-height: 100%;
         width: 30%;
+        .decoration{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            // padding-top: 4%;
+            color: #3C3C3C;
+            h1{
+                text-align: center;
+                font-weight: 400;
+                font-size: 237%;
+            }
+        }
+        form{
+            display: flex;
+            width: 100%;
+            height: 50%;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 1%;
+            .name, .email{
+                min-width: 50%;
+                label{
+                    font-weight: 600;
+                    padding-bottom: 1%;
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    justify-content: space-between;
+                    input{
+                        width: 95%;
+                        outline: 0;
+                        border-width: 0 0 1px;
+                        border-style: solid ;
+                        border-color: #707070;
+                        height: 10%;
+                    }
+                }
+                
+            }
+            .text{
+                display: flex;
+                flex-direction: column;
+                width: 98%;
+                height: 60%;
+                label{
+                    font-weight: 600;
+                    display: flex;
+                    flex-direction: column;
+                    height: 100%;
+                    padding-bottom: 1%;
+                    padding-top: 10%;
+                }
+                textarea{
+                    outline: 0;
+                    border-width: 0 0 2px;
+                    border-width: 0 0 1px;
+                    border-style: solid ;
+                    border-color: #707070;
+                    height: 100%;
+                    resize: none;
+                }
+            }
+            .submit{
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                padding-right: 2%;
+                input{
+                    width: 30%;
+                    // border-style: none;
+                    background-color: white;
+                    // border-color: ;
+                    border: 0.75px solid #3C3C3C;
+                }
+                input:hover{
+                    cursor: pointer;
+                }
+            }
+            
+        }
+        .icons{
+            display: flex;
+            justify-content: flex-end;
+            img{
+                padding: 2%;
+            }
+        }
     }
 }
