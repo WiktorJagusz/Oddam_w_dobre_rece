@@ -65,7 +65,7 @@ class Contact extends Component {
                         <h1>Komu pomagamy?</h1>
                         <img src={ Decoration } alt="motyw dekoracyjny"/>
                     </div>
-                    {valid.lenght === 0 && <SendValidForm name={name} email={email} message={message}/>}
+                    {valid === 0 && <SendValidForm name={name} email={email} message={message} />}
                     <form onSubmit={this.handleSubmit}>
                         <div className="name">
                             <label>
@@ -85,7 +85,7 @@ class Contact extends Component {
                             <label>
                             Wpisz swoją wiadomość
                             <textarea name='message' value={this.state.message} placeholder={ textareaPlaceholder } onChange={this.handleChange}/>
-                            {errors.message.lenght > 0 && <span>{ errors.message }</span>}
+                            {errors.message.length > 0 && <span>{ errors.message }</span>}
                         </label>
                         
                         </div>

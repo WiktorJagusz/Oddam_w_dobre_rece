@@ -10,6 +10,7 @@ class SendValidForm extends Component{
         fetch('https://fer-api.coderslab.pl/v1/portfolio/contact', {
             method: 'POST',
             headers: {
+                'cors': 'no-cors',
                 "Content-Type": "application/json"
             },
             body: JSON.stringify(data)
@@ -17,6 +18,7 @@ class SendValidForm extends Component{
         .then(resp => console.log(resp))
     }
     render(){
+        console.log('sendform')
         return(
             <span className='formSuccesfull'>Wiadomość została wysłana! Wkrótce się skontaktujemy.</span>
         )
