@@ -7,7 +7,7 @@ class SendValidForm extends Component{
 
         const data = { name: name, email: email, message: message };
 
-        fetch('https://fer-api.coderslab.pl/v1/portfolio/contact', {
+        fetch('https://fer-api.coderslab.pl/v1/portfolio/contactgit', {
             method: 'POST',
             headers: {
                 'cors': 'no-cors',
