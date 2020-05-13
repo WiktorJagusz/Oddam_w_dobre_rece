@@ -19,10 +19,3 @@ class Navigation extends Component{
 }
 
 export default Navigation;
-
-
-//                         <li>Start</li>
-//                         <li><Link to='fourSteps'>O co chodzi?</Link></li>
-//                         <li><link to='aboutUs'>O nas</link></li>
-//                         <li><Link to='whomWeHelp'>Fundacja i organizacje</Link></li>
-//                         <li><Link to='contact'>Kontakt</Link></li>
